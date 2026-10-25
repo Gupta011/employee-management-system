@@ -1,0 +1,33 @@
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# React build output
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Java / Maven build output
+target/
+**/target/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
